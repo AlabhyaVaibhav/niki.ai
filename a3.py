@@ -5,7 +5,6 @@ def cipher(m,n):
 			for x in range(m-1,n):
 				print(alpha_list[x])
 		elif m <=26 and n >=26:
-			print ("Case 2")
 			while m<=26:
 				print (alpha_list[m-1])
 				m=m+1
